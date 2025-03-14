@@ -15,11 +15,11 @@
 		$resp = $recaptcha->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
 
 		if ($resp->isSuccess()){
-			echo "Авторизация успешна";
+			echo "Ура ты авторизован ฅ^>⩊<^ฅ";
 
 		}
-		else echo "Пользователь не распознан";
-	}else echo "Нет ответа от капчи";
+		else echo "Не распознали пользователя (¬`‸´¬)";
+	}else echo "Нет ответа от капчи (¬`‸´¬)";
 	
 	$id = -1;
 	while($user_read = $query_user->fetch_row()) {

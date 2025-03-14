@@ -41,12 +41,14 @@
 					<div class = "sub-name">Логин:</div>
 					<input name="_login" type="text" placeholder="" onkeypress="return PressToEnter(event)"/>
 					<div class = "sub-name">Пароль:</div>
-					<input name="_password" type="password" placeholder="" onkeypress="return PressToEnter(event)"/>
-					
+					<input name="_password" type="text" placeholder="" onkeypress="return PressToEnter(event)"/>
+					<center><div class="g-recaptcha" data-sitekey="6LcoOusqAAAAAIqc_Fxh5QRPJZJv0M0ysPZdFPW8"></div></center>
+                    <div>ㅤ</div>
+                    <div>ㅤ</div>
 					<a href="regin.php">Регистрация</a>
 					<br><a href="recovery.php">Забыли пароль?</a>
 					<input type="button" class="button" value="Войти" onclick="LogIn()"/>
-					<center><div class="g-recaptcha" data-sitekey="6LcoOusqAAAAAIqc_Fxh5QRPJZJv0M0ysPZdFPW8"></div></center>
+					
 					<img src = "img/loading.gif" class="loading"/>
 				</div>
 				
